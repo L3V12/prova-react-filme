@@ -13,7 +13,7 @@ class Hearder extends Component
           </div>
           <div align="center" id="tela">
           <div id="top">
-          <a href="/Seila"><h2 id="top2">Ver Filmes</h2></a>
+          <a href="/Filmes"><h2 id="top2">Ver Filmes</h2></a>
           </div>        
           </div>
 
