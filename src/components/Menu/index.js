@@ -1,0 +1,24 @@
+import React, { Component } from 'react';
+
+import './style.css';
+
+class Hearder extends Component
+{
+  render()
+  {
+    return(
+        <div className="row">
+          <div className="col-md-12" id="Hearder">
+            <h2 align="center" >Filmes LK</h2>
+          </div>
+          <div id="tela">
+          <a href="">Filmes LK</a>
+                       
+          </div>
+
+        </div>
+    );
+  }
+}
+
+export default Hearder;

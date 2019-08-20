@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
+import Routes from './routes';
 
 import Hearder from './components/Hearder';
 import Search from './components/Search';
+import Menu from './components/Menu';
+
 
 class App extends Component
 {
@@ -11,8 +14,8 @@ class App extends Component
   {
     return(
       <div className="App">
-        <Hearder />
-        <Search />
+        <Menu />
+        <Routes />
       </div>
     );
   }

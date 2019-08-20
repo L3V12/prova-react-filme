@@ -9,7 +9,7 @@ class Hearder extends Component
     return(
         <div className="row">
           <div className="col-md-12" id="Hearder">
-            <h2>Movie Search</h2>
+            <h2 align="center" >Filmes LK</h2>
           </div>
         </div>
     );
