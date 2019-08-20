@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import api from '../../services/api';
+import Hearder from '../Hearder';
 
 import './style.css';
 
@@ -38,11 +39,13 @@ class Search extends Component
         const {filmes} = this.state;
         
         return(
+
         <div className="container">
+        <Hearder />
             <div className="row">
                 <div className="col-md-4"></div>
                 <div className="col-md-4">
-                    <input className="form-control" type="text" id="input" onChange={this.Busca} placeholder="Search"/>
+                    <input className="form-control" type="text" id="input" onChange={this.Busca} placeholder="Search"/><a href="/"><h2 align="center">Voltar</h2></a>
                 </div>
                 <div className="col-md-4"></div>
             </div>
